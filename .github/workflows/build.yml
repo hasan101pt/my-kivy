@@ -10,7 +10,6 @@ jobs:
       - name: Build APK
         uses: digreatbrian/buildozer-action@v2
         with:
-          python-version: 3.12
           buildozer-cmd: buildozer -v android debug
           workdir: . # directory where your main.py file rests
 
