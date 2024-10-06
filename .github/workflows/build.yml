@@ -12,7 +12,7 @@ jobs:
         with:
           python-version: 3.12
           buildozer-cmd: buildozer -v android debug
-          work-dir: . # directory where your main.py file rests
+          workdir: . # directory where your main.py file rests
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
